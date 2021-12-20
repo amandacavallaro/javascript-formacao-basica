@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moonwalk Manor - Sua estadia no c&eacute;u</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i" type="text/css" media="all">
+    <link rel="stylesheet" href="style-main.css" type="text/css" media="all">
+
+    <script src="JS/script.js" defer></script>
+    <script src="JS/libs/flexibility.js"></script>
+    <script>
+        /*! grunt-grunticon Stylesheet Loader - v2.1.6 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
+        !function(){function e(e,n,t){"use strict";var o=window.document.createElement("link"),r=n||window.document.getElementsByTagName("script")[0],a=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",r.parentNode.insertBefore(o,r),o.onloadcssdefined=function(e){for(var n,t=0;t<a.length;t++)a[t].href&&a[t].href===o.href&&(n=!0);n?e():setTimeout(function(){o.onloadcssdefined(e)})},o.onloadcssdefined(function(){o.media=t||"all"}),o}function n(e,n){e.onload=function(){e.onload=null,n&&n.call(e)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(t){var o=function(r,a){"use strict";if(r&&3===r.length){var i=t.navigator,c=t.document,s=t.Image,d=!(!c.createElementNS||!c.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!c.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&-1===i.userAgent.indexOf("Chrome")||-1!==i.userAgent.indexOf("Series40")),l=new s;l.onerror=function(){o.method="png",o.href=r[2],e(r[2])},l.onload=function(){var t=1===l.width&&1===l.height,i=r[t&&d?0:t?1:2];t&&d?o.method="svg":t?o.method="datapng":o.method="png",o.href=i,n(e(i),a)},l.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",c.documentElement.className+=" grunticon"}};o.loadCSS=e,o.onloadCSS=n,t.grunticon=o}(this),function(e,n){"use strict";var t=n.document,o="grunticon:",r=function(e){if(t.attachEvent?"complete"===t.readyState:"loading"!==t.readyState)e();else{var n=!1;t.addEventListener("readystatechange",function(){n||(n=!0,e())},!1)}},a=function(e){return n.document.querySelector('link[href$="'+e+'"]')},i=function(e){var n,t,r,a,i,c,s={};if(n=e.sheet,!n)return s;t=n.cssRules?n.cssRules:n.rules;for(var d=0;d<t.length;d++)r=t[d].cssText,a=o+t[d].selectorText,i=r.split(");")[0].match(/US\-ASCII\,([^"']+)/),i&&i[1]&&(c=decodeURIComponent(i[1]),s[a]=c);return s},c=function(e){var n,r,a,i;a="data-grunticon-embed";for(var c in e){i=c.slice(o.length);try{n=t.querySelectorAll(i)}catch(s){continue}r=[];for(var d=0;d<n.length;d++)null!==n[d].getAttribute(a)&&r.push(n[d]);if(r.length)for(d=0;d<r.length;d++)r[d].innerHTML=e[c],r[d].style.backgroundImage="none",r[d].removeAttribute(a)}return r},s=function(n){"svg"===e.method&&r(function(){c(i(a(e.href))),"function"==typeof n&&n()})};e.embedIcons=c,e.getCSS=a,e.getIcons=i,e.ready=r,e.svgLoadedCallback=s,e.embedSVG=s}(grunticon,this)}();
+        grunticon(["gfx/icons.data.svg.css", "gfx/icons.data.png.css", "gfx/icons.fallback.css"], grunticon.svgLoadedCallback);
+    </script>
+    <noscript><link href="gfx/icons.fallback.css" rel="stylesheet"></noscript>
+</head>
+
+<body>
+    <a class="skip-link screen-reader-text" href="#content">Ir para o conte&uacute;do</a>
+
+    <header class="masthead clear">
+        <div class="site-header centered">
+            <div class="site-branding">
+                <h1 class="site-title"><a href="/"><span class="icon-mmlogo" data-grunticon-embed></span>Moonwalk Manor</a></h1>
+            </div><!-- .site-title -->
+            <nav id="multi-level-nav" class="menu multi-level-nav">
+                <ul>
+                    <li><a href="#">In&iacute;cio</a></li>
+                    <li class="has-children">
+                        <a href="#">Sua Estadia<button class="dropdown-toggle" aria-expanded="false"><span class="screen-reader-text">Expandir o menu filho</span></button></a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Experiências</a></li>
+                            <li><a href="#">Alimenta&ccedil;&atilde;o</a></li>
+                            <li><a href="#">Facilidades</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a class="reserve" href="#">Fa&ccedil;a uma reserva</a></li>
+                </ul>
+            </nav><!-- #multi-level-nav .multi-level-nav -->
+        </div><!-- .centered -->
+
+    </header><!-- .masthead -->
+
+    <div id="showcase" class="promo-area">
+        <div class="front-slider flexslider">
+              <ul class="slides">
+                <li>
+                    <img src="images/mainpromo/welcome01.jpg" />
+                </li>
+                <li>
+                    <img src="images/mainpromo/welcome02.jpg" />
+                </li>
+                <li>
+                    <img src="images/mainpromo/welcome03.jpg" />
+                </li>
+                <li>
+                    <img src="images/mainpromo/welcome04.jpg" />
+                </li>
+            </ul>
+        </div><!-- .flexslider -->
+        <div class="promo-content">
+            <div class="promo-text">
+                <h2 class="promo-title">Um Hotel na Lua?!?</h2>
+                <p class="promo-lede">Isso &eacute; completamente insano! Quem teve essa ideia absurda? E toda aquela poeira?</p>
+            </div><!-- .promo-text -->
+        </div><!-- .promo-content -->
+    </div><!-- #showcase .promo-area -->
+
+    <main class="main-area">
+
+        <div class="top-pitch centered">
+            <h2 class="main-title">Bem vindo ao Moonwalk Manor</h2>
+            <p class="teaser two-column">
+                Moonwalk Manor &eacute; um novo hotel impressionante na lua. Isso mesmo, na lua. Você sempre quis ver como a &eacute; terra de longe?
+                Bem, agora você pode. E pode enquanto estiver fazendo uma sess&atilde;o de yoga em baixa gravidade ou explorando os locais de
+                aterrissagem das miss&otildees Apollo. Chamar sua estadia no Moonwalk Manor de experiência &uacute;nica seria o eufemismo do s&eacute;culo. 
+                Sua estadia no Moonwalk Manor vai mudar sua percep&ccedil;&atilde;o da realidade e te fazer uma pessoa completamente nova.
+            </p>
+        </div><!-- .pitch centered -->
+        <div class="cta">
+            <a href="#">Reserve Agora!</a>
+        </div><!-- .cta -->
+
+        <section class="main-pitch">
+            <div class="three-reasons centered">
+                <figure class="reason">
+                    <a href="">
+                        <img src="images/mainpromo/welcome02.jpg" />
+                    </a>
+                    <figcaption>
+                        <h3 class="content-title">Um quarto com Vista</h3>
+                        <p>Todos os quartos no Moonwalk Manor, seja uma su&iacute;te b &aacute;sica ou um Apartament Class&reg;, possuem vista panorâmica.</p>
+                        <a class="content-button" href="#">Saiba mais<span class="screen-reader-text"> sobre as vistas.</span></a>
+                    </figcaption>
+                </figure><!-- .reason -->
+                <figure class="reason">
+                    <a href="">
+                        <img src="images/mainpromo/welcome03.jpg" />
+                    </a>
+                    <figcaption>
+                        <h3 class="content-title">Descanso Luxuoso</h3>
+                        <p>Sim, você est &aacute; na lua, mas isso n&atilde;o quer diz que a gravidade n&atilde;o far &aacute; efeito no seu corpo. Depois de um longo dia de agita&ccedil;&atilde;o,
+                             deite em nossas luxuosas camas para recarregar as energias para o pr&oacute;ximo dia.</p>
+                        <a class="content-button" href="#">Saiba Mais<span class="screen-reader-text"> sobre nossas maravilhosas camas.</span></a>
+                    </figcaption>
+                </figure><!-- .reason -->
+                <figure class="reason">
+                    <a href="">
+                        <img src="images/mainpromo/welcome04.jpg" />
+                    </a>
+                    <figcaption>
+                        <h3 class="content-title">Tratamento de Primeira Classe</h3>
+                        <p>Seu conforto e seguran&ccedil;a &eacute; nossa prioridade. No Moonwalk Manor nos orgulhamos do tratamento de primeira classe do momento que você chega at&eacute; o
+                             momento que você coloca seu p&eacute; de volta na terra. At&eacute; mesmo durante uma chuva de meteoros.</p>
+                        <a class="content-button" href="#">Saiba Mais<span class="screen-reader-text"> sobre nossos abrigos de meteoros e nosso termo de responsabilidade.</span></a>
+                    </figcaption>
+                </figure><!-- .reason -->
+            </div><!-- .three-reasons centered -->
+        </section><!-- .main-pitch -->
+
+        <section class="pitch">
+            <div class="centered">
+                <h2 class="main-title">A Moonwalk Experience</h2>
+                <p class="teaser two-column">
+                    Você n&atilde;o est&aacute; apenas indo a um hotel. Você est&aacute; indo a um novo corpo celeste, mantido no campo gravitacional da Terra, que viaja em sua pr&oacute;pria &oacute;rbita em volta do Sol.
+                     As experiências que você ir&aacute; vivenciar conosco ser&aacute; diferente de todas as outras.
+                </p>
+            </div><!-- .centered -->
+        </section><!-- .pitch centered -->
+
+        <section class="features centered">
+            <figure class="feature">
+                <a href="#">
+                    <img src="images/experience/apartmentclass.jpg" alt=""  />
+                </a>
+                <figcaption>
+                    <h3 class="content-title">Acomoda&ccedil;&otildees Apartment Class&reg;</h3>
+                    Hospede-se na lua com o conforto da sua casa. O Apartment Class&reg; do Moonwalk Manor &eacute; um apartamento estilo Nova Iorque em tamanho real com todos os luxos que você 
+                    esperaria em sua casa e muito mais.</p>
+                    <a class="content-button" href="#">Saiba Mais<span class="screen-reader-text"> sobre a acomoda&ccedil;&atilde;o Apartment Class&reg;.</span></a>
+                </figcaption>
+            </figure><!-- .feature -->
+            <figure class="feature">
+                <a href="#">
+                    <img src="images/experience/fivestardining.jpg" alt=""  />
+                </a>
+                <figcaption>
+                    <h3 class="content-title">Refei&ccedil;&otildees 5 Estrelas</h3>
+                    <p>Antes de sair da Terra, n&oacute;s convencemos os melhores chefes do mercado a vir conosco. Ser&aacute; a baixa gravidade um ingrediente numa refei&ccedil;&atilde;o chique? S&oacute;
+                         tem um jeito de descobrir!</p>
+                    <a class="content-button" href="#">Saiba Mais<span class="screen-reader-text"> sobre o Sorvete da Descompress&atilde;o Explosiva.</span></a>
+                </figcaption>
+            </figure><!-- .feature -->
+            <figure class="feature">
+                <a href="#">
+                    <img src="images/experience/gravitygym.jpg" alt=""  />
+                </a>
+                <figcaption>
+                    <h3 class="content-title">Academia Gravidade</h3>
+                    <p>Nossa Academia Gravidade oferece exerc&iacute;cios que você nunca nem imaginou. Desde a nossa Pista Centr&iacute;fuga de Super Gravidade at&eacute; o nosso Studio de Yoga Gravidade Zero, 
+                        o Moonwalk Manor tem uma nova experiência para oferecer para qualquer um.</p>
+                    <a class="content-button" href="#">Saiba Mais<span class="screen-reader-text"> sobre a vertigem de queda livre.</span></a>
+                </figcaption>
+            </figure><!-- .feature -->
+            <figure class="feature">
+                <a href="#">
+                    <img src="images/experience/spa.jpg" alt=""  />
+                </a>
+                <figcaption>
+                    <h3 class="content-title">Spa da Poeira Lunar</h3>
+                    <p>Regolito &eacute; o que faz a lua ser cinza. E &eacute; tamb&eacute;m o que ir&aacute; rejuvenescer sua pele, fazendo com que ela fique macia como seda ao toque. 
+                        As propriedades &uacute;nicas da poeira lunar faz dela um esfoliante ideal e condicionador da pele. Visite nosso spa e descubra você mesmo.</p>
+                    <a class="content-button" href="#">Saiba Mais<span class="screen-reader-text"> sobre as erup&ccedil;&otildees regol&iacute;ticas.</span></a>
+                </figcaption>
+            </figure><!-- .feature -->
+
+        </section><!-- .features centered -->
+
+        <div class="cta">
+            <a href="#">Reserve Agora!</a>
+        </div><!-- .cta -->
+
+        <h2 class="main-title">Hist&oacute;rias da Lua</h2>
+        <section class="stories centered">
+            <!-- slider -->
+            <div class="story-slider flexslider">
+                <ul class="slides">
+                    <li>
+                        <figure class="story-wrapper">
+                            <img src="images/testimonials/bluepebble.jpg" alt="" data-type="story" />
+                            <figcaption class="story">
+                                <h3 class="story-header">Nascer da Terra</h3>
+                                <div class="author">Bob MacEnzie</div>
+                                <p>Você j&aacute; ouviu hist&oacute;rias sobre os primeiros astronautas visitando a Lua e olhando para a Terra nascendo no horizonte.
+                                    Ent&atilde;o você vê por si mesmo e percebe o qu&atilde;o pequenos e vulner&aacute;veis n&oacute;s todos somos.</p>
+                                <a href="#" class="content-button">Veja a hist&oacute;ria completa</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="story-wrapper">
+                            <img src="images/testimonials/earth.jpg" alt="" data-type="story" />
+                            <figcaption class="story">
+                                <h3 class="story-header">Terra vista do C&eacute;u</h3>
+                                <div class="author">Judy Blench</div>
+                                <p>Subindo pela atmosfera, eu vi as 3 dimens&otildees da Terra pela primeira vez. Eu era um terraplanista at&eacute; aquele momento,
+                                     mas agora eu percebo que as tartarugas devem estar em uma dimens&atilde;o diferente.</p>
+                                <a href="#" class="content-button">Veja a hist&oacute;ria completa</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="story-wrapper">
+                            <img src="images/testimonials/footprint.jpg" alt="" data-type="story" />
+                            <figcaption class="story">
+                                <h3 class="story-header">Pegadas no Regolito</h3>
+                                <div class="author">Maiken Endersen</div>
+                                <p>Um pequeno passo paro o homem. Um milh&atilde;o de pegadas dos turistas. Eu me pergunto se algu&eacute;m ir&aacute; olhar para uma foto minha no futuro e
+                                     sonhar em ser a primeira mulher em um novo planeta. </p>
+                                <a href="#" class="content-button">Veja a hist&oacute;ria completa</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="story-wrapper">
+                            <img src="images/testimonials/zerog.jpg" alt="" data-type="story" />
+                            <figcaption class="story">
+                                <h3 class="story-header">Caindo atrav&eacute;s da gravidade</h3>
+                                <div class="author">Maiken Endersen</div>
+                                <p>Eu pensava que eu sabia yoga e como controlar meu corpo. Nunca estive t&atilde;o errado. Eu aprendi mais sobre mim mesmo em 2 dias no Studio de Yoga Gravidade Zero do que 
+                                    eu aprendi em 20 anos de pr&aacute;ticas no ch&atilde;o.</p>
+                                <a href="#" class="content-button">Veja a hist&oacute;ria completa</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div><!-- .story-slider -->
+        </section><!-- .stories centered -->
+
+    </main><!-- .main-area -->
+
+    <footer class="footer">
+        <section class="footer-widgets centered">
+            <div class="widget footer-menu">
+                <h4 class="widget-title">Encontre o seu caminho</h4>
+                <ul>
+                    <li><a href="#">In&iacute;cio</a></li>
+                    <li><a href="#">Acomoda&ccedil;&otildees</a></li>
+                    <li><a href="#">Experiências</a></li>
+                    <li><a href="#">Alimenta&ccedil;&atilde;o</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div><!-- .widget -->
+            <div class="widget footer-cta">
+                <h4 class="widget-title">Fa&ccedil;a sua reserva</h4>
+                <p>O que você est&aacute; esperando? A lua est&aacute; pronta para sua visita.</p>
+                <a href="#">Reserve Agora!</a>
+
+            </div><!-- .widget -->
+            <div class="widget footer-address">
+                <address>
+                    <h4 class="widget-title">Moonwalk Manor</h4>
+                    <p>
+                        1 Moonwalk Avenue<br>
+                        M00N, Tycho<br>
+                        Luna
+                    </p>
+                </address>
+            </div><!-- .widget -->
+        </section><!-- .footer-widgets -->
+        <nav class="social-nav" role="navigation">
+            <ul>
+                <li><a class="icon-linkedin" data-grunticon-embed href="https://linkedin.com"><span class="screen-reader-text">LinkedIn</span></a></li>
+                <li><a class="icon-twitter" data-grunticon-embed href="https://twitter.com"><span class="screen-reader-text">Twitter</span></a></li>
+                <li><a class="icon-facebook" data-grunticon-embed href="https://facebook.com"><span class="screen-reader-text">Facebook</span></a></li>
+                <li><a class="icon-instagram" data-grunticon-embed href="https://instagram.com"><span class="screen-reader-text">Instagram</span></a></li>
+                <li><a class="icon-youtube" data-grunticon-embed href="https://youtube.com"><span class="screen-reader-text">YouTube</span></a></li>
+            </ul>
+        </nav><!-- .social-nav -->
+    </footer><!-- .footer -->
+
+    <script src="JS/libs/jquery-2.1.3.min.js"></script>
+    <script src="JS/libs/jquery.flexslider-min.js"></script>
+    <script src="JS/menu-toggle.js"></script>
+    <script src="JS/flexslider.js"></script>
+
+</body>
+
+</html>
